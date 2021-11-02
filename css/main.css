@@ -1,0 +1,62 @@
+html {
+    box-sizing: border-box;
+    min-height: 100vh;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    line-height: 1.4;
+    font-size: 18px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  html {
+    background: rgb(12,38,110);
+    background: linear-gradient(25deg, rgba(12,38,110,1) 0%, rgba(249,98,125,1) 75%);
+  }
+  
+  body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    margin: 40px auto;
+  
+  }
+  
+  .wrapper {
+    width: 100%;
+    max-width: 700px;
+    padding: 20px;
+    border: 8px solid black;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.5);
+    
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 0;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  a:link, a:visited {
+    color: #02e9ff;
+    text-decoration: none;
+  }
+  
+  a:hover, a:active {
+    text-decoration: underline;
+  }
